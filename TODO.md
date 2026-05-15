@@ -7,21 +7,19 @@
 - [x] Firebase dependencies
 - [x] Repository class
 
-## In Progress (Production Heavy)
-- [ ] Production hardening: enable R8/shrinking for release
-- [ ] Production hardening: fill Proguard rules safely for Compose/Firebase
-- [ ] Architecture: add Navigation Compose with proper NavHost
-- [ ] Architecture: add ViewModel + StateFlow for screen states
-- [ ] UI: refactor HomeScreen into screens (Home/Menu/Images)
-- [ ] Firebase: implement profile save + load
-- [ ] Firebase: implement Firebase Storage image upload + save URLs
-- [ ] Firebase: implement menu save + load
-- [ ] Firebase: implement inquiry & local guide placeholders (data model hooks)
-- [ ] Auth: add FirebaseAuth sign-in/out + current user gate
-- [ ] UX: add loading/error UI + disable actions during requests
-- [ ] Observability: add Crashlytics + Performance Monitoring
+## Remaining
+- [ ] Firebase setup (create project, download google-services.json)
+- [ ] Implement profile creation and save to Firestore
+- [ ] Image upload to Firebase Storage
+- [ ] Auth for hosts/travelers
+- [ ] Inquiry system (chat/calls)
+- [ ] Local guide section
+- [ ] Navigation between screens
+- [ ] Icons and drawables (mipmap)
+- [ ] Testing
 
 ## Next Steps
-- [ ] Test: assembleRelease + bundleRelease
-- [ ] Test on device: image upload + menu update flows
+1. Open in Android Studio: Open project folder in Android Studio.
+2. Firebase: Create Firebase project, enable Auth/Firestore/Storage, download google-services.json to app/.
+3. Sync Gradle and run.
 
